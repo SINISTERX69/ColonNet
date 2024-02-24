@@ -42,7 +42,9 @@ For Semantic Segmentation we have employed the traditional UNet architecture wit
 3. For segmentation branch, again only bleeding images were passed to the model for 30 epochs. The best validation loss obtained was **0.28**.
 
 ## PREDICTIONS
+***1-BLEEDING***
 
+***0-NON BLEEDING***
 ### VALIDATION DATASET 
 
 | Bounding Box Prediction | CAM PLOT | Segmentation Mask |
