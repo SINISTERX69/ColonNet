@@ -1,5 +1,5 @@
 # ColonNet
-ColonNet is a Deep Learning Model that detects and highlights the instances of bleeding in the small intestine. 
+ColonNet is a Deep Learning Model that detects and highlights the instances of bleeding in the Gastrointestinal Tract. 
 
 This project is a submission for The Auto-WCEBleedGen Challenge Ver2 by **Team ColonNet**.
 
@@ -43,6 +43,16 @@ For Semantic Segmentation we have employed the traditional UNet architecture wit
 
 ## PREDICTIONS
 
+### VALIDATION DATASET 
+
+| Bounding Box Prediction | CAM PLOT | Segmentation Mask |
+| --- | ---- | --- |
+| ![BOX_100](VAL/IMG100-BOX.png) | ![CAM_100](VAL/IMG100-CAM.png) | ![MASK_100](VAL/IMG100-MASK.png) |
+| ![BOX_1044](VAL/IMG1044-BOX.png) | ![CAM_1044](VAL/IMG1044-CAM.png) | ![MASK_1044](VAL/IMG1044-MASK.png) |
+| ![BOX_139](VAL/IMG139-BOX.png) | ![CAM_139](VAL/IMG139-CAM.png) | ![MASK_139](VAL/IMG139-MASK.png) |
+| ![BOX_440](VAL/IMG440-BOX.png) | ![CAM_440](VAL/IMG440-CAM.png) | ![MASK_440](VAL/IMG440-MASK.png) |
+| ![BOX_475](VAL/IMG475-BOX.png) | ![CAM_475](VAL/IMG475-CAM.png) | ![MASK_475](VAL/IMG475-MASK.png) |
+
 ### TEST DATASET 1
 
 | Bounding Box Prediction | CAM PLOT | Segmentation Mask |
@@ -81,4 +91,4 @@ To simply make predictions on images,run **prediction.py** and give the image pa
 
 We wish to thank all the members of MISAHUB for organizing this challenge and providing the relevant image dataset for the training and testing of this model.
 
-For further information and model metrics kindly refer to the README.pdf file.
+For further information and model metrics kindly refer to the README.pdf and excel file.
