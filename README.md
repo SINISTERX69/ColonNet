@@ -1,7 +1,7 @@
 # ColonNet
 ColonNet is a Deep Learning Model that detects and highlights the instances of bleeding in the small intestine. 
 
-This project is a submission for The WCEBleedGen Ver2 by Team ColonNet.
+This project is a submission for The Auto-WCEBleedGen Challenge Ver2 by **Team ColonNet**.
 
 ## Network Architecture
 
@@ -41,6 +41,31 @@ For Semantic Segmentation we have employed the traditional UNet architecture wit
 2. Next we froze the parameters for the bounding box branch and the DenseNet and trained the model again for 10 epochs this time with the entire training dataset including non-bleeding images. At the end the validation loss for classification was **0.001**.
 3. For segmentation branch, again only bleeding images were passed to the model for 30 epochs. The best validation loss obtained was **0.28**.
 
+## PREDICTIONS
+
+### TEST DATASET 1
+
+| Bounding Box Prediction | CAM PLOT | Segmentation Mask |
+| --- | ---- | --- |
+| ![BOX_25](TD1/TD1-A0025-BOX.png) | ![CAM_25](TD1/TD1-A0025-CAM.png) | ![MASK_25](TD1/TD1-A0025-MASK.png) |
+| ![BOX_26](TD1/TD1-A0026-BOX.png) | ![CAM_26](TD1/TD1-A0026-CAM.png) | ![MASK_26](TD1/TD1-A0026-MASK.png) |
+| ![BOX_27](TD1/TD1-A0027-BOX.png) | ![CAM_27](TD1/TD1-A0027-CAM.png) | ![MASK_27](TD1/TD1-A0027-MASK.png) |
+| ![BOX_28](TD1/TD1-A0028-BOX.png) | ![CAM_28](TD1/TD1-A0028-CAM.png) | ![MASK_28](TD1/TD1-A0028-MASK.png) |
+| ![BOX_31](TD1/TD1-A0031-BOX.png) | ![CAM_31](TD1/TD1-A0031-CAM.png) | ![MASK_31](TD1/TD1-A0031-MASK.png) |
+
+### TEST DATASET 2
+
+| Bounding Box Prediction | CAM PLOT | Segmentation Mask |
+| --- | ---- | --- |
+| ![BOX_152](TD2/TD2-A0152-BOX.png) | ![CAM_152](TD2/TD2-A0152-CAM.png) | ![MASK_152](TD2/TD2-A0152-MASK.png) |
+| ![BOX_177](TD2/TD2-A0177-BOX.png) | ![CAM_177](TD2/TD2-A0177-CAM.png) | ![MASK_177](TD2/TD2-A0177-MASK.png) |
+| ![BOX_194](TD2/TD2-A0194-BOX.png) | ![CAM_194](TD2/TD2-A0194-CAM.png) | ![MASK_194](TD2/TD2-A0194-MASK.png) |
+| ![BOX_349](TD2/TD2-A0349-BOX.png) | ![CAM_349](TD2/TD2-A0349-CAM.png) | ![MASK_349](TD2/TD2-A0349-MASK.png) |
+| ![BOX_361](TD2/TD2-A0361-BOX.png) | ![CAM_361](TD2/TD2-A0361-CAM.png) | ![MASK_361](TD2/TD2-A0361-MASK.png) |
+
+
+
+
 ## HOW TO USE
 First make sure that your folder structure looks like the tree shown below
 
@@ -51,3 +76,9 @@ Then install the requirments given in the **requirements.txt**
 To train the model yourself you can simply run the **training.py**
 
 To simply make predictions on images,run **prediction.py** and give the image path when asked. (You can also just give the image name but the image should be in the **same folder** as predictions.py)
+
+## CREDITS
+
+We wish to thank all the members of MISAHUB for organizing this challenge and providing the relevant image dataset for the training and testing of this model.
+
+For further information and model metrics kindly refer to the README.pdf file.
