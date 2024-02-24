@@ -42,4 +42,12 @@ For Semantic Segmentation we have employed the traditional UNet architecture wit
 3. For segmentation branch, again only bleeding images were passed to the model for 30 epochs. The best validation loss obtained was **0.28**.
 
 ## HOW TO USE
+First make sure that your folder structure looks like the tree shown below
 
+![sample-tree](https://github.com/SINISTERX69/ColonNet/assets/123566211/6899826b-7d08-4e22-aa98-1d687df52771)
+
+Then install the requirments given in the **requirements.txt**
+
+To train the model yourself you can simply run the **training.py**
+
+To simply make predictions on images,run **prediction.py** and give the image path when asked. (You can also just give the image name but the image should be in the **same folder** as predictions.py)
