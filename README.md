@@ -5,6 +5,11 @@ This project is a submission for The WCEBleedGen Ver2 by Team ColonNet.
 
 ## Network Architecture
 
+![ColonNet_Architecture](https://github.com/SINISTERX69/ColonNet/assets/121342601/556f4f88-67dd-4435-92be-12e2224232e4)
+
+
+![Double_Conv](https://github.com/SINISTERX69/ColonNet/assets/121342601/200b7161-8662-4896-a2dc-834cea6282bb)
+
 The Neural Network consists of three branches for classification , segmentation and bounding box prediction.
 
 ### Classification & Bounding Box Prediction Branch
