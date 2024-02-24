@@ -83,6 +83,12 @@ First make sure that your folder structure looks like the tree shown below
 
 Then install the requirments given in the **requirements.txt**
 
+Download the [Training Data](https://zenodo.org/record/10156571/files/WCEBleedGen%20(updated).zip)
+
+Download the [Testing Data](https://zenodo.org/records/10642779/files/Test%20Dataset%20for%20Auto-WCEBleedGen%20Challenge%20version%202.zip)
+
+Download the [model h5s](https://drive.google.com/drive/folders/1xTH_l6J64v6aJDfaQ7IImQDyUQ3f2CFW?usp=drive_link)
+
 To train the model yourself you can simply run the **training.py**
 
 To simply make predictions on images,run **prediction.py** and give the image path when asked. (You can also just give the image name but the image should be in the **same folder** as predictions.py)
@@ -91,4 +97,4 @@ To simply make predictions on images,run **prediction.py** and give the image pa
 
 We wish to thank all the members of MISAHUB for organizing this challenge and providing the relevant image dataset for the training and testing of this model.
 
-For further information and model metrics kindly refer to the README.pdf and excel file.
+For further information and model metrics kindly refer to the [README.pdf](/README.pdf) and [excel file](/ColonNet-Predictions%20and%20metrics.xlsx).
