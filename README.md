@@ -5,10 +5,10 @@ This project is a submission for The Auto-WCEBleedGen Challenge Ver2 by **Team C
 
 ## Network Architecture
 
-![ColonNet_Architecture](https://github.com/SINISTERX69/ColonNet/assets/121342601/556f4f88-67dd-4435-92be-12e2224232e4)
+![ColonNet_Architecture](Architecture_Images/ColonNet_Architecture.png)
 
 
-![Double_Conv](https://github.com/SINISTERX69/ColonNet/assets/121342601/200b7161-8662-4896-a2dc-834cea6282bb)
+![Double_Conv](Architecture_Images/Double_Conv.png)
 
 The Neural Network consists of three branches for classification , segmentation and bounding box prediction.
 
