@@ -128,7 +128,7 @@ model.save("segmentation.hdf5")
 
 
 upper=load_model("classNbox.h5")
-lower=load_model("segmentation.hdf5")
+lower=load_model("segmentation.hdf5",custom_objects={"focal_tversky":focal_tversky,"tversky":tversky})
 
 for m in (upper,lower):
     for layer in m:
