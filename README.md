@@ -100,3 +100,7 @@ To simply make predictions on images,run **prediction.py** and give the image pa
 We wish to thank all the members of MISAHUB for organizing this challenge and providing the relevant image dataset for the training and testing of this model.
 
 For further information and model metrics kindly refer to the [README.pdf](/README.pdf) and [excel file](/ColonNet-Predictions%20and%20metrics.xlsx).
+
+
+## Youtube Presentation 
+[Explanation](https://youtu.be/4_uShxS0OcE)
