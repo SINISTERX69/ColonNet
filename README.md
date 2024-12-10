@@ -3,7 +3,7 @@ ColonNet is a Deep Learning Model that detects and highlights the instances of b
 
 This is the winning submission of The Auto-WCEBleedGen Challenge Ver2 by **Team ColonNet**.
 
-![Preprint](http://arxiv.org/abs/2412.05216)
+[Preprint](http://arxiv.org/abs/2412.05216)
 
 ## Network Architecture
 
