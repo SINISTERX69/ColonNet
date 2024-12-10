@@ -1,7 +1,9 @@
 # ColonNet
 ColonNet is a Deep Learning Model that detects and highlights the instances of bleeding in the Gastrointestinal Tract. 
 
-This project is a submission for The Auto-WCEBleedGen Challenge Ver2 by **Team ColonNet**.
+This is the winning submission of The Auto-WCEBleedGen Challenge Ver2 by **Team ColonNet**.
+
+![Preprint](http://arxiv.org/abs/2412.05216)
 
 ## Network Architecture
 
